@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    background: rgba(255, 255, 255, 0.1); /* halka transparent white */
+    backdrop-filter: blur(10px);           /* blur effect */
+    -webkit-backdrop-filter: blur(10px); 
+    button{
+        padding: 8px 6px 11px 16px;
+        background-color: black;
+        border: none;
+        border-radius: 50px;
+        transition: all 1s ease;
+    }
+    .arrow{
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        font-weight: bolder;
+        padding: 3px 8px 5px;
+
+    }
+}
+.expand-btn:hover {
+  padding-left: 40px;         /* left se extra space */
+}
+
+        /* herosection */
+    
+.herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.345), rgba(0, 0, 0, 0.459)) ,url(https://wallpapers.com/images/hd/dark-luxury-house-and-tall-glass-windows-cll7wwtf2mmy19zu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 110px;
+    position: relative;
+    h1{
+        font-size: 5em;
+        font-weight: 600;
+    }
+    p{
+        font-size: 20px;
+    }
+     button{
+     padding: 8px 6px 10px 20px;
+     background-color: rgba(255, 255, 255, 0.096);
+     border: 2px solid rgba(255, 255, 255, 0.418);
+     border-radius: 50px;
+     font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s ease;
+    color: white;
+ }
+ .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;            /* start from 0 */
+  height: 100%;
+  background: #fff;     /* hover color */
+  z-index: -1;
+  transition: width 0.4s ease;
+}
+
+.btn:hover::before {
+  width: 100%;          /* fill left → right */
+}
+
+.btn:hover {
+  color: #000;          /* text turns black */
+}
+ .arrow{
+     background-color: black;
+     color: white;
+     border-radius: 50px;
+     font-weight: bolder;
+     padding: 3px 8px 5px;
+ }
+ .reating{
+    h3{
+        font-size: 4em;
+    }
+    p{
+        font-size: 17px;
+    }
+ }
+ .box {
+  width: 200px;          /* jo size chahiye */
+  height: 100px;         
+  background: white;     /* background color */
+  border-radius: 15px;   /* gol corners */
+  
+  position: absolute;    /* box ko parent ke andar freely move karne ke liye */
+  right: 0;              /* right side chipka do */
+  bottom: 0;             /* bottom side chipka do */
+  margin: 20px;          /* thoda andar ho jaye */
+}
+
+}
+
+            /* section-1 */
+
+.section-1{
+    .btn{
+        background-color: rgba(234, 234, 234, 0.655);
+        border-radius: 50px;
+        color: rgba(49, 49, 49, 0.705);
+        padding: 3px 20px 4px 20px;
+        border: 1px solid rgba(193, 193, 193, 0.642);
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    .card{
+        width: 320px;
+        border: none;
+
+    }
+    img{
+    border-radius: 40px;
+    
+    }
+    span{
+        font-size: 18px;
+       
+    }
+    a{
+        font-size: 18px;
+    }
+}
+
+
+        /* section=2 */
+
+.section-2{
+     .btn{
+     background-color: rgba(234, 234, 234, 0.655);
+     border-radius: 50px;
+     color: rgba(54, 54, 54, 0.705);
+     padding: 3px 20px 4px 20px;
+     border: 1px solid rgba(193, 193, 193, 0.642);
+ }
+ .col{
+    background-color: rgba(234, 234, 234, 0.655);
+    width: 300px;
+    height: 300px;
+    padding: 35px 60px 30px 30px;
+    border-radius: 30px
+ }
+ i{
+    background-color: white;
+    padding: 18px 40px 15px 17px;
+    border-radius: 50px;
+    font-size: 1.5em;
+ }
+ p{
+    font-size: 16px
+ }
+ h2{
+    font-size: 2.5em;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+ }
+}
+
+            /* contact form */
+        
+.container{
+    .outer-b{
+        border-radius: 40px;
+        padding: 40px 30px 80px 30px;
+        background-color: #ffffffaf;
+        border: #adadad89;
+    }
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+     .f-button{
+     background-color: rgba(234, 234, 234, 0.655);
+     border-radius: 50px;
+     color: rgba(54, 54, 54, 0.705);
+     padding: 3px 20px 4px 20px;
+     border: 1px solid rgba(193, 193, 193, 0.642);
+ }
+  h2{
+    font-size: 2.5em;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+ }
+}
+
+
+
+.section-3{
+    .btn{
+        background-color: rgba(234, 234, 234, 0.655);
+        border-radius: 50px;
+        color: rgba(54, 54, 54, 0.705);
+        padding: 3px 20px 4px 20px;
+        border: 1px solid rgba(193, 193, 193, 0.642);
+        outline: none;
+    }
+    a{
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    
+}
+
+.contactform{
+.btn{
+    background-color: rgba(234, 234, 234, 0.655);
+    border-radius: 50px;
+    color: rgba(54, 54, 54, 0.705);
+    padding: 3px 20px 4px 20px;
+    border: 1px solid rgba(193, 193, 193, 0.642);
+    outline: none;
+}
+}
